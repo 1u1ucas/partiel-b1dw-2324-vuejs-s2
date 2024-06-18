@@ -4,9 +4,9 @@ import { ref, reactive } from "vue";
 
 const state = reactive({
   partsCompleted: {
-    GoPart1: false,
-    GoPart2: false,
-    GoPart3: false,
+    part1: false,
+    part2: false,
+    part3: false,
   },
 });
 
@@ -25,10 +25,6 @@ const fetchProduct = () => {
     });
 };
 fetchProduct();
-
-function getHref(completed, part) {
-  return completed ? `${part}` : null;
-}
 
 const seeMore = () => {
   router.push({ name: "part1" });
@@ -80,7 +76,7 @@ const goHome = () => {
     <ul>
       <li v-for="(completed, part) in state.partsCompleted" :key="part">
         <a
-          @click.prevent="getHref(completed, part)"
+          :href="completed ? `${part}` : null"
           :class="{ disabled: !completed }"
           >{{ part }}</a
         >
