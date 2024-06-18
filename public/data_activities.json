@@ -1,227 +1,236 @@
 [
-    {
-      "name": "Athletics",
-      "categories": ["Children", "Adults"],
-      "options": ["Long Jump", "100m Dash"],
-      "sessions": [
-        {
-          "date": "July 27",
-          "start_at": "10:00",
-          "end_at": "12:00",
-          "option": "Long Jump",
-          "categories": "Children",
-          "registered": 30,
-          "available_places": 50
-        },
-        {
-          "date": "July 28",
-          "start_at": "14:00",
-          "end_at": "16:00",
-          "option": "100m Dash",
-          "categories": "Adults",
-          "registered": 20,
-          "available_places": 40
-        }
-      ]
-    },
-    {
-      "name": "Gymnastics",
-      "categories": ["Children"],
-      "options": ["Uneven Bars", "Floor Exercise"],
-      "sessions": [
-        {
-          "date": "July 30",
-          "start_at": "09:00",
-          "end_at": "11:00",
-          "option": "Uneven Bars",
-          "categories": "Children",
-          "registered": 25,
-          "available_places": 50
-        },
-        {
-          "date": "July 31",
-          "start_at": "13:00",
-          "end_at": "15:00",
-          "option": "Floor Exercise",
-          "categories": "Children",
-          "registered": 30,
-          "available_places": 50
-        }
-      ]
-    },
-    {
-      "name": "Swimming",
-      "categories": ["Children", "Adults"],
-      "options": ["50m Freestyle", "100m Backstroke"],
-      "sessions": [
-        {
-          "date": "August 1",
-          "start_at": "10:00",
-          "end_at": "11:30",
-          "option": "50m Freestyle",
-          "categories": "Children",
-          "registered": 40,
-          "available_places": 60
-        },
-        {
-          "date": "August 2",
-          "start_at": "15:00",
-          "end_at": "16:30",
-          "option": "100m Backstroke",
-          "categories": "Adults",
-          "registered": 20,
-          "available_places": 30
-        }
-      ]
-    },
-    {
-      "name": "Basketball",
-      "categories": ["Children", "Adults"],
-      "options": ["3-on-3", "Dunk Contest"],
-      "sessions": [
-        {
-          "date": "July 27",
-          "start_at": "11:00",
-          "end_at": "13:00",
-          "option": "3-on-3",
-          "categories": "Children",
-          "registered": 20,
-          "available_places": 40
-        },
-        {
-          "date": "July 29",
-          "start_at": "14:00",
-          "end_at": "16:00",
-          "option": "Dunk Contest",
-          "categories": "Adults",
-          "registered": 15,
-          "available_places": 30
-        }
-      ]
-    },
-    {
-      "name": "Volleyball",
-      "categories": ["Children", "Adults"],
-      "options": ["Beach Volleyball", "Indoor Volleyball"],
-      "sessions": [
-        {
-          "date": "July 28",
-          "start_at": "09:00",
-          "end_at": "11:00",
-          "option": "Beach Volleyball",
-          "categories": "Children",
-          "registered": 30,
-          "available_places": 50
-        },
-        {
-          "date": "August 2",
-          "start_at": "10:00",
-          "end_at": "12:00",
-          "option": "Indoor Volleyball",
-          "categories": "Adults",
-          "registered": 20,
-          "available_places": 40
-        }
-      ]
-    },
-    {
-      "name": "Tennis",
-      "categories": ["Children", "Adults"],
-      "options": ["Singles", "Doubles"],
-      "sessions": [
-        {
-          "date": "August 1",
-          "start_at": "10:00",
-          "end_at": "12:00",
-          "option": "Singles",
-          "categories": "Children",
-          "registered": 10,
-          "available_places": 30
-        },
-        {
-          "date": "August 3",
-          "start_at": "13:00",
-          "end_at": "15:00",
-          "option": "Doubles",
-          "categories": "Adults",
-          "registered": 20,
-          "available_places": 30
-        }
-      ]
-    },
-    {
-      "name": "Marathon",
-      "categories": ["Adults"],
-      "options": ["Half Marathon", "Full Marathon"],
-      "sessions": [
-        {
-          "date": "July 27",
-          "start_at": "07:00",
-          "end_at": "11:00",
-          "option": "Half Marathon",
-          "categories": "Adults",
-          "registered": 25,
-          "available_places": 35
-        },
-        {
-          "date": "August 4",
-          "start_at": "07:00",
-          "end_at": "12:00",
-          "option": "Full Marathon",
-          "categories": "Adults",
-          "registered": 15,
-          "available_places": 40
-        }
-      ]
-    },
-    {
-      "name": "Cycling",
-      "categories": ["Children", "Adults"],
-      "options": ["Road Race", "Mountain Biking"],
-      "sessions": [
-        {
-          "date": "July 28",
-          "start_at": "09:00",
-          "end_at": "11:00",
-          "option": "Road Race",
-          "categories": "Children",
-          "registered": 20,
-          "available_places": 30
-        },
-        {
-          "date": "August 3",
-          "start_at": "14:00",
-          "end_at": "16:00",
-          "option": "Mountain Biking",
-          "categories": "Adults",
-          "registered": 15,
-          "available_places": 30
-        }
-      ]
-    },
-    {
-      "name": "Triathlon",
-      "categories": ["Adults"],
-      "options": ["Sprint", "Olympic"],
-      "sessions": [
-        {
-          "date": "July 29",
-          "start_at": "08:00",
-          "end_at": "11:00",
-          "option": "Sprint",
-          "categories": "Adults",
-          "registered": 20,
-          "available_places": 30
-        },
-        {
-          "date": "August 2",
-          "start_at": "09:00",
-          "end_at": "12:00",
-          "option": "Olympic",
-          "categories": "Adults",
-          "registered": 10,
-          "available_places": 30
-        }
-      ]
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Athletics",
+    "categories": ["Children", "Adults"],
+    "options": ["Long Jump", "100m Dash"],
+    "sessions": [
+      {
+        "date": "July 27",
+        "start_at": "10:00",
+        "end_at": "12:00",
+        "option": "Long Jump",
+        "categories": "Children",
+        "registered": 30,
+        "available_places": 50
+      },
+      {
+        "date": "July 28",
+        "start_at": "14:00",
+        "end_at": "16:00",
+        "option": "100m Dash",
+        "categories": "Adults",
+        "registered": 20,
+        "available_places": 40
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Gymnastics",
+    "categories": ["Children"],
+    "options": ["Uneven Bars", "Floor Exercise"],
+    "sessions": [
+      {
+        "date": "July 30",
+        "start_at": "09:00",
+        "end_at": "11:00",
+        "option": "Uneven Bars",
+        "categories": "Children",
+        "registered": 25,
+        "available_places": 50
+      },
+      {
+        "date": "July 31",
+        "start_at": "13:00",
+        "end_at": "15:00",
+        "option": "Floor Exercise",
+        "categories": "Children",
+        "registered": 30,
+        "available_places": 50
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Swimming",
+    "categories": ["Children", "Adults"],
+    "options": ["50m Freestyle", "100m Backstroke"],
+    "sessions": [
+      {
+        "date": "August 1",
+        "start_at": "10:00",
+        "end_at": "11:30",
+        "option": "50m Freestyle",
+        "categories": "Children",
+        "registered": 40,
+        "available_places": 60
+      },
+      {
+        "date": "August 2",
+        "start_at": "15:00",
+        "end_at": "16:30",
+        "option": "100m Backstroke",
+        "categories": "Adults",
+        "registered": 20,
+        "available_places": 30
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Basketball",
+    "categories": ["Children", "Adults"],
+    "options": ["3-on-3", "Dunk Contest"],
+    "sessions": [
+      {
+        "date": "July 27",
+        "start_at": "11:00",
+        "end_at": "13:00",
+        "option": "3-on-3",
+        "categories": "Children",
+        "registered": 20,
+        "available_places": 40
+      },
+      {
+        "date": "July 29",
+        "start_at": "14:00",
+        "end_at": "16:00",
+        "option": "Dunk Contest",
+        "categories": "Adults",
+        "registered": 15,
+        "available_places": 30
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Volleyball",
+    "categories": ["Children", "Adults"],
+    "options": ["Beach Volleyball", "Indoor Volleyball"],
+    "sessions": [
+      {
+        "date": "July 28",
+        "start_at": "09:00",
+        "end_at": "11:00",
+        "option": "Beach Volleyball",
+        "categories": "Children",
+        "registered": 30,
+        "available_places": 50
+      },
+      {
+        "date": "August 2",
+        "start_at": "10:00",
+        "end_at": "12:00",
+        "option": "Indoor Volleyball",
+        "categories": "Adults",
+        "registered": 20,
+        "available_places": 40
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tennis",
+    "categories": ["Children", "Adults"],
+    "options": ["Singles", "Doubles"],
+    "sessions": [
+      {
+        "date": "August 1",
+        "start_at": "10:00",
+        "end_at": "12:00",
+        "option": "Singles",
+        "categories": "Children",
+        "registered": 10,
+        "available_places": 30
+      },
+      {
+        "date": "August 3",
+        "start_at": "13:00",
+        "end_at": "15:00",
+        "option": "Doubles",
+        "categories": "Adults",
+        "registered": 20,
+        "available_places": 30
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Marathon",
+    "categories": ["Adults"],
+    "options": ["Half Marathon", "Full Marathon"],
+    "sessions": [
+      {
+        "date": "July 27",
+        "start_at": "07:00",
+        "end_at": "11:00",
+        "option": "Half Marathon",
+        "categories": "Adults",
+        "registered": 25,
+        "available_places": 35
+      },
+      {
+        "date": "August 4",
+        "start_at": "07:00",
+        "end_at": "12:00",
+        "option": "Full Marathon",
+        "categories": "Adults",
+        "registered": 15,
+        "available_places": 40
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cycling",
+    "categories": ["Children", "Adults"],
+    "options": ["Road Race", "Mountain Biking"],
+    "sessions": [
+      {
+        "date": "July 28",
+        "start_at": "09:00",
+        "end_at": "11:00",
+        "option": "Road Race",
+        "categories": "Children",
+        "registered": 20,
+        "available_places": 30
+      },
+      {
+        "date": "August 3",
+        "start_at": "14:00",
+        "end_at": "16:00",
+        "option": "Mountain Biking",
+        "categories": "Adults",
+        "registered": 15,
+        "available_places": 30
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Triathlon",
+    "categories": ["Adults"],
+    "options": ["Sprint", "Olympic"],
+    "sessions": [
+      {
+        "date": "July 29",
+        "start_at": "08:00",
+        "end_at": "11:00",
+        "option": "Sprint",
+        "categories": "Adults",
+        "registered": 20,
+        "available_places": 30
+      },
+      {
+        "date": "August 2",
+        "start_at": "09:00",
+        "end_at": "12:00",
+        "option": "Olympic",
+        "categories": "Adults",
+        "registered": 10,
+        "available_places": 30
+      }
+    ]
+  }
+]

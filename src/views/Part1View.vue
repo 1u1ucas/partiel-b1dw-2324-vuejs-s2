@@ -1,5 +1,27 @@
 <script setup>
-import { ref, computed, defineEmits } from "vue";
+import { ref, computed, defineEmits, defineProps } from "vue";
+
+const props = defineProps({
+  informations: Array,
+});
+
+const informations = ref(props.informations["0"]);
+
+if (informations.value === undefined) {
+  const prenom = ref("");
+  const nom = ref("");
+  const email = ref("");
+  const telephone = ref("");
+  const codePostal = ref("");
+} else {
+  const prenom = ref(informations.value.prenom);
+  const nom = ref(informations.value.nom);
+  const email = ref(informations.value.email);
+  const telephone = ref(informations.value.telephone);
+  const codePostal = ref(informations.value.codePostal);
+}
+
+console.log("informations", informations);
 
 const emits = defineEmits(["sendInformation"]);
 
